@@ -1,4 +1,4 @@
- This is a cross platform virus scanner so anyone can use to run this install a python compiler 
+ This is a cross platform virus scanner so it can install on any os and  anyone can run this by installing a python compiler and some essential libraries mentioned below
  
  if you are on windows open cmd enter the pip commands one by one
  
