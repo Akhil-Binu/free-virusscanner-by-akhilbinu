@@ -17,4 +17,4 @@
 
 
 
- only 5 scans in an hour due to public api
+
