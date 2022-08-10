@@ -17,7 +17,7 @@
  pip3 install virustotal_python
  
  
- python3 virus-scanner.py
+ to run -->> python3 virus-scanner.py
 
 
 
