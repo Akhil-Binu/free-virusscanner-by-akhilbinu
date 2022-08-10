@@ -51,13 +51,13 @@ while(1):
              serverresponse = str(resp.data)
              print("Scan Results: \n")
              if((serverresponse.count("'category': 'malicious'")) >= 5):
-                 print(Fore.LIGHTRED_EX,"This file is flagged by " , (serverresponse.count("'category': 'malicious'")) , " antivirus softwares as malicious")
+                 print(Fore.LIGHTRED_EX,"This file is flagged by " , (serverresponse.count("'category': 'malicious'")) , " antivirus  as malicious")
              elif((serverresponse.count("'category': 'malicious'")) >= 2):
-                print(Fore.LIGHTYELLOW_EX ,"This file is flagged by " , (serverresponse.count("'category': 'malicious'")) , " antivirus softwares as malicious")
+                print(Fore.LIGHTYELLOW_EX ,"This file is flagged by " , (serverresponse.count("'category': 'malicious'")) , " antivirus as malicious")
              elif((serverresponse.count("'category': 'malicious'")) == 1):
-                 print(Fore.LIGHTWHITE_EX ,"This file is flagged by " , (serverresponse.count("'category': 'malicious'")) , " antivirus software as malicious")
+                 print(Fore.LIGHTWHITE_EX ,"This file is flagged by " , (serverresponse.count("'category': 'malicious'")) , " antivirus  as malicious")
              else:
-                 print(Fore.LIGHTGREEN_EX ,"This file is flagged by " , (serverresponse.count("'category': 'malicious'")) , " antivirus softwares as malicious")
+                 print(Fore.LIGHTGREEN_EX ,"This file is flagged by " , (serverresponse.count("'category': 'malicious'")) , " antivirus  as malicious")
         print(Fore.WHITE)
     except:
         print("File not found in VirusTotal, sending it for analysis...")
