@@ -25,7 +25,7 @@ except:
 while(1):
     ascii_banner = pyfiglet.figlet_format("VIRUS SCANNER BY AKHIL BINU")
     print(Fore.CYAN + ascii_banner)
-    print(Fore.MAGENTA , "[Malware Scanner] - Created by Sanoj C Chacko \n \n")
+    print(Fore.MAGENTA , "[Antivirus Scanner] - Created by Akhil Binu \n \n")
     print(Fore.WHITE)
     BUF_SIZE = 65536
     sha1 = hashlib.sha1()
