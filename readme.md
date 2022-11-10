@@ -1,16 +1,12 @@
 <h1 align="center">Free Virus Scanner</h1>
 <h3 align="center"> By Akhil</h3>
 
-<br>
 
 <h2 align="center">Description</h2>
-<hr>
 This is a cross platform virus scanner so it can install on any os and anyone can run this by installing a python compiler and some essential libraries. 
 
-<br>
  
 <h2 align="center">Installation</h2>
-<hr>
 
 First install python and pip from [Here](https://www.python.org/)
 
@@ -32,7 +28,6 @@ python3 virus-scanner.py
 
 
 <h2 align="center">Examples</h2>
-<hr>
 <h3 align="center">Virus Detected</h3>
 <img src="results screenshot/detected.png">
 
