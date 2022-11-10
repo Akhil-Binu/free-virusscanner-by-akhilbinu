@@ -1,5 +1,5 @@
 <h1 align="center">Free Virus Scanner</h1>
-<h3 align="center"> By Akhil</h3>
+<h3 align="center">By Akhil</h3>
 
 
 <h2 align="center">Description</h2>
