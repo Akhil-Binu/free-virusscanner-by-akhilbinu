@@ -1,0 +1,4 @@
+colorama
+pyfiglet
+requests
+virustotal_python

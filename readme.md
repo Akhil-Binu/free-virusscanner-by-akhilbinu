@@ -1,24 +1,40 @@
- This is a cross platform virus scanner so it can install on any os and  anyone can run this by installing a python compiler and some essential libraries mentioned below
+<h1 align="center">Free Virus Scanner</h1>
+<h3 align="center"> By Akhil</h3>
+
+<br>
+
+<h2 align="center">Description</h2>
+<hr>
+This is a cross platform virus scanner so it can install on any os and anyone can run this by installing a python compiler and some essential libraries. 
+
+<br>
  
- if you are on windows open cmd enter the pip commands one by one
- 
- if you are mac or linux open terminal and enter the pip commands one by one 
- 
- if your are on ubuntu 20.04 you also need to install pip (command - sudo apt install python3-pip)
- 
- pip3 install colorama
- 
- pip3 install hashlib
- 
- pip3 install pyfiglet
- 
- pip3 install requests
- 
- pip3 install virustotal_python
- 
- 
- to run -->> python3 virus-scanner.py
+<h2 align="center">Installation</h2>
+<hr>
+
+First install python and pip from [Here](https://www.python.org/)
+
+For linux users:
+```sh
+sudo apt install python3
+sudo apt install python3-pip
+```
+
+Installing the libraries:
+```sh
+pip3 install -r requirements.txt
+```
+
+Running the script:
+```sh
+python3 virus-scanner.py
+```
 
 
+<h2 align="center">Examples</h2>
+<hr>
+<h3 align="center">Virus Detected</h3>
+<img src="results screenshot/detected.png">
 
-
+<h3 align="center">No Virus Detected</h3>
+<img src="results screenshot/not detected.png">
